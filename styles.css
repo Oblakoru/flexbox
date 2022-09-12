@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+nav, awesome_section {
+    background-color: #1F2937;
+}
+
+.flex-container {
+    display: flex;
+    height: ;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.nav_items{
+    list-style-type: none;
+}
+
+.nav_items a:link{
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.nav_items a:visited {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.nav_items a:active{
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+
+#header_logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 0;
+}
+
