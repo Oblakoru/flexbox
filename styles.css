@@ -10,18 +10,23 @@ nav, awesome_section {
     background-color: #1F2937;
 }
 
-.flex-container {
+#navigacija {
     display: flex;
-    height: ;
+}
+
+#nav {
+    display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
-    margin-right: 15px;
+    margin-right: 5%;
+    gap: 20px;
 }
 
 .nav_items{
     list-style-type: none;
 }
+
 
 .nav_items a:link{
     text-decoration: none;
@@ -42,6 +47,87 @@ nav, awesome_section {
 #header_logo {
     font-size: 24px;
     color: #F9FAF8;
+    margin-right: auto;
+    margin-left: 5%;
+}
+
+.awesome_section{
+    display: flex;
+    background-color: #1F2937;
+    height: 270px;
+    color: #F9FAF8;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+
+
+}
+
+.awesome_section div:nth-child(1){
+    width: 25%;
+}
+
+.prvi_naslov{
     margin: 0;
+    font-size: 24px;
+}
+
+.gumb{
+    background-color: rgb(125, 219, 243);
+    color: white;
+    padding: 3%;
+    border-color: rgb(125, 219, 243) ;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-style: solid;
+}
+
+.gumb:hover{
+   opacity: 40% ;
+}
+
+img {
+    height: 200px;
+}
+
+.random_section{
+    display: flex;
+    background-color: white;
+    color: #1F2937;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+}
+
+.enota {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+}
+
+.enota > p {
+    margin: 0;
+    padding: 5%;
+}
+    
+
+
+.celota_enot{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.zaobljen_kvadrat {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(185, 247, 255);
+    border-radius: 10px;
+
 }
 
